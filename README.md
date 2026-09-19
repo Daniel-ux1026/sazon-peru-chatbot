@@ -4,6 +4,15 @@ Proyecto académico de Python, Streamlit y la API de OpenAI. Responde sobre comi
 peruana y convierte audios en texto con **Whisper (`whisper-1`)**. El chat utiliza
 **`gpt-4o-mini`**, siguiendo el ejemplo de clase, y conserva contexto de la sesión.
 
+**Repositorio:** https://github.com/Daniel-ux1026/sazon-peru-chatbot (privado).
+Para que el docente lo vea, invítalo como colaborador o cambia su visibilidad.
+
+**Verificación:** 12 pruebas locales aprobadas y aplicación revisada en navegador.
+La clave está configurada localmente, pero las llamadas reales a chat y Whisper
+devolvieron HTTP 429. Se confirmó `credit_balance_exhausted` (saldo agotado).
+La demostración con resultados reales requiere añadir saldo a la API. El informe
+incluye capturas del resultado observado y distingue las pruebas simuladas.
+
 ## 1. Requisitos
 
 - Windows con Python 3.11 o superior (probado con Python 3.12).
