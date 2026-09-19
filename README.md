@@ -8,10 +8,11 @@ peruana y convierte audios en texto con **Whisper (`whisper-1`)**. El chat utili
 Para que el docente lo vea, invítalo como colaborador o cambia su visibilidad.
 
 **Verificación:** 12 pruebas locales aprobadas y aplicación revisada en navegador.
-La clave está configurada localmente, pero las llamadas reales a chat y Whisper
-devolvieron HTTP 429. Se confirmó `credit_balance_exhausted` (saldo agotado).
-La demostración con resultados reales requiere añadir saldo a la API. El informe
-incluye capturas del resultado observado y distingue las pruebas simuladas.
+Pruebas reales completadas desde el navegador: respuesta sobre lomo saltado,
+transcripción con Whisper y envío de esa transcripción al chat con respuesta
+sobre causa limeña. El bloqueo anterior por saldo quedó resuelto. El informe
+incluye capturas reales. Se utilizó un WAV sintético de cuatro segundos;
+la grabación directa desde el micrófono no se probó.
 
 ## 1. Requisitos
 
